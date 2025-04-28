@@ -1,5 +1,6 @@
 import re
 from colorama import Fore, Style,init
+import time
 
 # Initialize colorama
 init()
@@ -20,13 +21,16 @@ def check_password_strength(password):
     return Fore.GREEN + "Strong: Password is strong." + Style.RESET_ALL
 
 
-import time
+
 
 
 def main():
-
+#loading effect
+    print(Fore.CYAN + "=== Loading Password Strength Checker ===" + Style.RESET_ALL)
+    time.sleep(1) #pause for 1 second
+    
+#main code
     print(Fore.CYAN + "=== Password Strength Checker ===" + Style.RESET_ALL)
-    time.sleep(1)
     password = input("Enter your password:")
     result = check_password_strength(password)
     print(result)
