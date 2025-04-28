@@ -11,7 +11,7 @@ How It Works:
 ... If the password is a mix of numbers, letters or symbols, it is consdidered strong.
 
 How to Test/Run:
-... Clone the repository: git clone https://github.com/gheecodes/password-strength-check.git
+... Clone the repository: git clone [https://github.com/gheecodes/password-strength-check.git]
 ... Ensure you have Python installed on your computer
 ... Ensure the required package is installed: Bash 
                                               pip install colorama
