@@ -19,9 +19,14 @@ def check_password_strength(password):
         return Fore.RED +  "Weak: Password must not contain any whitespace." + Style.RESET_ALL
     return Fore.GREEN + "Strong: Password is strong." + Style.RESET_ALL
 
+
+import time
+
+
 def main():
 
     print(Fore.CYAN + "=== Password Strength Checker ===" + Style.RESET_ALL)
+    time.sleep(1)
     password = input("Enter your password:")
     result = check_password_strength(password)
     print(result)
