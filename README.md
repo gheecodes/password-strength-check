@@ -14,5 +14,13 @@ How to Test/Run:
 ... Run the python file: Python pass-strength-check.py
 
 Requirements:
-... Python(latest version)
-... Colorama(latest version)
+... Python 3.x
+... Colorama
+
+Author:
+gheecodes
+
+License:
+This project is licensed under the MIT License.
+
+
