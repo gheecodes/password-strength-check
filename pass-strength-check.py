@@ -6,7 +6,7 @@ import time
 init()
 
 def check_password_strength(password):
-    if len(password) < 8:
+    if len(password) < 14:
         return  Fore.RED + "Weak: Password must be at least 8 characters long." + Style.RESET_ALL
     if not re.search(r"[A-Z]",password):
         return Fore.RED + "Weak: Password must contain at least one uppercase letter." + Style.RESET_ALL
