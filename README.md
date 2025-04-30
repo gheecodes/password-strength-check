@@ -1,21 +1,26 @@
-A beginner-friendky Python project that checks and validates the strength of a password based on different criteria. Also provides colourful feedback using the Colorama library to make the experience more user-friendly.
+A beginner-friendly Python project that checks and validates the strength of a password based on different criteria. Also provides colourful feedback using the Colorama library to make the experience more user-friendly.
 
 #Features:
-... At least 8 characters long
-... Has both upper and lower case letters
-... Has numbers
-... Has special characters
-... Colourful output to indicate strength
-... Beginner-friendly and easy to understand
+... Loading animation for a second before starting
+... Colour-coded results(Red for Weak, Yellow for Moderate and Green for Strong)
+... Simple and clean user interface
+
+How It Works:
+... If the password is less than 8 characters, it is considered weak
+... If the password is only letters or only numbers, it is still considered weak
+... If the password is a mix of numbers, letters and symbols, it is considered strong.
 
 How to Test/Run:
+... Clone the repository: git clone [https://github.com/gheecodes/password-strength-check.git]
 ... Ensure you have Python installed on your computer
-... Ensure the required package is installed: pip install colorama
+... Ensure the required package is installed: Bash 
+                                              pip install colorama
 ... Run the python file: Python pass-strength-check.py
 
-Requirements:
+Technologies Used:
 ... Python 3.x
-... Colorama
+... Colorama(for coloured text output)
+... Time module(for loading effect)
 
 Author:
 gheecodes
